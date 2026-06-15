@@ -1,0 +1,44 @@
+{
+  "name": "@sidrelabs/trelliscope",
+  "version": "0.1.0",
+  "description": "Trelliscope - an Obsidian-style viewer and navigator for a Trellis-governed repository's evidence graph. Renders a self-contained HTML app or an Obsidian-compatible vault. Local-only, no network.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "homepage": "https://vibecodegovern.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidrelabs/trelliscope.git"
+  },
+  "bin": {
+    "trelliscope": "bin/trelliscope.js"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "trelliscope": "node bin/trelliscope.js"
+  },
+  "keywords": [
+    "trellis",
+    "evidence-graph",
+    "obsidian",
+    "visualization",
+    "governance",
+    "vibe-coding"
+  ],
+  "dependencies": {
+    "@sidrelabs/trellis-core": "file:../trellis/packages/core"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
