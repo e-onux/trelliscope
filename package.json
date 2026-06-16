@@ -7,7 +7,7 @@
   "homepage": "https://vibecodegovern.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sidrelabs/trelliscope.git"
+    "url": "https://github.com/e-onux/trelliscope.git"
   },
   "bin": {
     "trelliscope": "bin/trelliscope.js"
